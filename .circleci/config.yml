@@ -40,4 +40,4 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: cc-demo-test
+      appname: cc-test-demo
