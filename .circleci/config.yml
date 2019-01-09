@@ -38,16 +38,4 @@ jobs:
       - run:
           name: Deploy Master to Heroku
           command: |
-            git push https://heroku:eacb9246-88e1-4c21-b18c-d41f8ad3e091@git.heroku.com/cc-demo-test.git master
-
-workflows:
-  version: 2
-  build-deploy:
-    jobs:
-      - build
-      - deploy:
-          requires:
-            - build
-          filters:
-            branches:
-              only: master
+            git push https://heroku:$HEROKU_API_KEY@git.heroku.com/cc-demo-test.git master
