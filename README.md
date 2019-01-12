@@ -2,7 +2,7 @@
 
 #### ContextAPI
 <p>
-  <img src="https://github.com/dnErf/cc-demo-test/blob/master/public/contextAPI_img1.jpg"/>
+  <img src="https://github.com/dnErf/cc-demo-test/blob/master/public/contextAPI_img1.jpeg"/>
 </p>
 
 > https://blog.bitsrc.io/why-you-should-consider-the-new-context-api-in-react-a-deep-dive-d588b66c57b5
