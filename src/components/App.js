@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
+import {AppContext} from './Context'
 
 class App extends Component {
+  static contextType = AppContext
   render() {
     return (
-      <div>Hello</div>
+      <div>{this.context.textValue}</div>
     )
   }
 }

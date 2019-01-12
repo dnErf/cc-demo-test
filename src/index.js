@@ -4,10 +4,15 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 import App from './components/App'
+import ContextWrap from './components/Context'
 
 ReactDOM.render(
-  <div className="app">
-    <App />
-  </div>
+
+    <div className="app">
+      <ContextWrap>
+        <App />
+      </ContextWrap>
+    </div>
+
   , document.getElementById('root')
 )
