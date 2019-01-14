@@ -9,7 +9,6 @@ export default class ContextWrap extends React.Component {
     textValue : `im a text from context`
   }
   render () {
-    console.log(this.state)
     return (
       <AppContext.Provider value={this.state}>
         {this.props.children}
