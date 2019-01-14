@@ -5,7 +5,7 @@ class App extends Component {
   static contextType = AppContext
   render() {
     return (
-      <div>{this.context.textValue}</div>
+      <div style={{'fontWeight':'bold'}}>{this.context.textValue}</div>
     )
   }
 }
