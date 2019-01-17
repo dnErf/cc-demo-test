@@ -62,6 +62,7 @@ jobs:
 
 ```
 
+> note : $HEROKU_API_KEY is an environment variable in circle ci project settings.
 
 #### Other Reference
 

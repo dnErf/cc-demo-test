@@ -4,7 +4,7 @@ import {AppContext} from './Context'
 let textStyle = {
   'textAlign': 'center',
   'marginTop': '50vh',
-  // 'fontWeight': 'bold'
+  'fontWeight': 'bold'
 }
 
 class App extends Component {
