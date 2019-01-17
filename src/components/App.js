@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
 import {AppContext} from './Context'
 
-let ds = {
-  'textAlign': 'center' ,
-  'marginTop': '50vh'
+let textStyle = {
+  'textAlign': 'center',
+  'marginTop': '50vh',
+  // 'fontWeight': 'bold'
 }
 
 class App extends Component {
   static contextType = AppContext
   render() {
     return (
-      <div style={{...ds}}>{this.context.textValue}</div>
+      <div style={{...textStyle}}>{this.context.textValue}</div>
     )
   }
 }

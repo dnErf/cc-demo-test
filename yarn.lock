@@ -9561,6 +9561,11 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
+vdbx@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/vdbx/-/vdbx-1.0.3.tgz#f01aceb7fe8028295fd5551afe51a5bf2b5d2e61"
+  integrity sha512-84MBxKhSELfmqVbrxcjfzajKm0wVfp53O4N5uRhJ/9COJpZBrveHhYDDFBbktURwYiuHlikQ/rBLCIQjt5DmUQ==
+
 vendors@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.2.tgz#7fcb5eef9f5623b156bcea89ec37d63676f21801"
